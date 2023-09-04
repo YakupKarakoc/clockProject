@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    background-color: rgb(50, 96, 136);
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 100vh;
+}
+
+.baslik {
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: rgb(231, 236, 241);
+
+
+}
+
+.saatler {
+    display: flex;
+
+
+}
+
+.saatler div {
+    margin: 6px;
+    position: relative;
+
+
+}
+
+.saatler span {
+    justify-content: center;
+    background-color: rgb(250, 255, 215);
+    height: 50px;
+    width: 90px;
+    font-size: large;
+    margin: 0px;
+    align-items: center;
+    display: flex;
+}
+
+
+
+.saatler #yazı {
+    display: flex;
+    font-size: 21px;
+    color: rgb(165, 178, 238);
+    letter-spacing: 3px;
+    height: 50px;
+    text-decoration: none;
+}
+
+#saat {
+    font-size: 25px;
+    color: rgb(206, 234, 92);
+    display: flex;
+}
+
+#dakika {
+    font-size: 25px;
+    color: rgb(206, 234, 92);
+    display: flex;
+}
+
+#saniye {
+    display: flex;
+    font-size: 25px;
+    color: rgb(206, 234, 92);
+}
+
+#pmam {
+    font-size: 20px;
+    opacity: 0.9;
+    color: rgb(206, 234, 92);
+    position: absolute;
+    left: 3px;
+    top: 22px;
+    display: flex;
+}
